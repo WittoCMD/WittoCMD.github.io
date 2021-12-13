@@ -1,0 +1,10 @@
+
+
+
+.quiz__slide {
+    display: none;
+}
+
+.quiz__slide-active {
+    display: block;
+}
