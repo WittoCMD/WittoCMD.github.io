@@ -1,7 +1,7 @@
 
 
 
-// This is very bad code just did it fast for the project in school :)
+// This is very very very very very bad code just did it fast for the project in school :)
 
 const Quiz = (function() {
 
@@ -56,7 +56,7 @@ const Quiz = (function() {
         container.appendChild(dom);
     }
       
-      
+    // fake react
     const fr = {
         createElement,
         render,
@@ -133,12 +133,18 @@ const Quiz = (function() {
                     fr.createElement(
                         'button',
                         {class : 'btn-pre quiz__btn'},
-                        '🡰'
+                        fr.createElement(
+                            'i',
+                            {class : 'fa fa-arrow-left'},
+                        )
                     ),
                     fr.createElement(
                         'button',
                         {class : 'btn-next quiz__btn'},
-                        '🡲'
+                        fr.createElement(
+                            'i',
+                            {class : 'fa fa-arrow-right'},
+                        )
                     )
                 ),
             ),
