@@ -112,13 +112,19 @@ img {
     font-size: 1.8rem;
 }
 
+
+.header__title a {
+    font-size: 1.8rem;
+    color: #F7F6F2;
+}
+
 .header__list {
     gap: 30px;
 }
 
 .header__list__item > a {
     font-size: 1rem;
-    color: #F7F6F2;;
+    color: #F7F6F2;
 }
 
 /* --- main --- */
