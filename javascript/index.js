@@ -58,5 +58,34 @@ q1.addQuestion(
     ],
     1
 );
-
 q1.render();
+
+const q2 = new Quiz('quiz-2');
+
+q2.addQuestion(
+    'What is this?',
+    [
+        'This is so cool. Isnit',
+        'What is this',
+        'How fast do I type',
+        'This is option 4'
+    ],
+    2
+);
+
+q2.render();
+
+const q3 = new Quiz('quiz-3');
+
+q3.addQuestion(
+    'What is this?',
+    [
+        'This is so cool. Isnit',
+        'What is this',
+        'How fast do I type',
+        'This is option 4'
+    ],
+    2
+);
+
+q3.render();
