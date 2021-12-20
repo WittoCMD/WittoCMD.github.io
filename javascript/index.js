@@ -5,87 +5,122 @@
 const q1 = new Quiz('quiz-1');
 
 q1.addQuestion(
-    'What are 3 main parts of the battery?',
+    'Was sind die 3 Hauptteile der Batterie?',
     [
-        'WHat are 3 main parts of the battery?',
-        'it is so simple?',
-        'Why do you ask',
-        'what is 2 + 2'
-    ],
-    0
-);
-
-q1.addQuestion(
-    'What is gaussian cell?',
-    [
-        'Volt',
-        'Mercedes',
-        'Branko',
-        'Elon Musk'
-    ],
-    0
-);
-
-q1.addQuestion(
-    'What is kathode?',
-    [
-        'It looks cool',
-        'Your mom',
-        'Why do you ask me',
-        'Thats a good question.'
-    ],
-    0
-);
-
-q1.addQuestion(
-    'What is electrolyte',
-    [
-        'It is not that cool as you think cool?',
-        'what is the name of your mom',
-        'Why do erwger gergoerg erg',
-        'Thats not a question.'
-    ],
-    0
-);
-
-q1.addQuestion(
-    'What metals are used in danills cell?',
-    [
-        'It  cool as you think cool',
-        'what  of your mom',
-        'Why  gergoerg erg',
-        'Thats not a question FWEOFJOWE .'
+        'Kathode, Anode und Zinksulfatlösung',
+        'Kathode, Anode und Elektrolyt',
+        'Zinksulfatlösung, Kupfersulfatlösung, Elektrolyt',
+        'Kathode, Anode und Zink'
     ],
     1
+);
+
+q1.addQuestion(
+    'Welche Metalle werden in Daniell-Element verwendet?',
+    [
+        'Zink und Aluminium',
+        'Aluminium und Eisen',
+        'Aluminium und Kupfer',
+        'Kupfer und Zink'
+    ],
+    3
+);
+
+q1.addQuestion(
+    'Welche 2 Reaktionen treten in der Batterie auf?',
+    [
+        'Photosynthese udn Oxidation',
+        'Destillation und Reduktion',
+        'Oxidation und Reduktion',
+        'Verbrennung und Reduktion'
+    ],
+    2
+);
+
+q1.addQuestion(
+    'Die Anode ist ___  ',
+    [
+        'der Ort, an dem Reduktion stattfindet',
+        'der Ort, an dem Oxidation stattfindet'
+    ],
+    1
+);
+
+q1.addQuestion(
+    'Was sind Elektrolyte? Die Lösungen, bei denen ___',
+    [
+        'meisten gelösten Stoffe reduzieren.',
+        'meisten gelösten Stoffe als Atomen vorliegen.',
+        'meisten gelösten Stoffe als Ionen vorliegen.',
+        'meisten gelösten Stoffe oxidieren.'
+    ],
+    2
 );
 q1.render();
 
 const q2 = new Quiz('quiz-2');
 
 q2.addQuestion(
-    'What is this?',
+    'Wo kommt das meiste Lithium vor?',
     [
-        'This is so cool. Isnit',
-        'What is this',
-        'How fast do I type',
-        'This is option 4'
+        'Bolivien',
+        'Chile',
+        'Argentinien',
+        'China'
+    ],
+    0
+);
+
+q2.addQuestion(
+    'Wo kommt das meiste Kobalt vor?',
+    [
+        'Japan',
+        'Bolivien',
+        'Demokratische Republik Kongo',
+        'Australien'
     ],
     2
+);
+
+
+q2.addQuestion(
+    'Wer ist Marktbeherrscher bei der Lithiumproduktion?',
+    [
+        'China',
+        'Kanada',
+        'Argentina',
+        'Australien'
+    ],
+    0
 );
 
 q2.render();
 
+
+
 const q3 = new Quiz('quiz-3');
 
 q3.addQuestion(
-    'What is this?',
+    'In welche 3 Teile werden Batterien vor dem Recycling getrennt?',
     [
-        'This is so cool. Isnit',
-        'What is this',
-        'How fast do I type',
-        'This is option 4'
+        'Sie sind nicht getrennt.',
+        'Kunststoff, Säure und Schwermetal',
+        'Zink, Säure und Schwermetal',
+        'Kunststoff, Säure und Kupfer'
+    ],
+    1
+);
+
+q3.addQuestion(
+    'Wie viel Prozent der Batterien werden recycelt?',
+    [
+        '3.141%',
+        '12%',
+        '5%',
+        '7,5%'
     ],
     2
 );
+
 
 q3.render();
